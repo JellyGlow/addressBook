@@ -1,0 +1,83 @@
+/*
+CSS RESET by
+
+ http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h5.searchBar {
+  color: rgba(84, 192, 255, 100);
+  /*this isn't working because it's an h5*/
+}
+
+h5.searchBar:hover {
+  color: black;
+}
+
+nav {
+  height: 100%;
+  background: black ;
+  color: rgba(84, 192, 255, 100);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -9em;
+  padding-top: 50px;
+  margin-left: 0px;
+}
+
+nav li {
+  border: rgba(84, 192, 255, 100);
+  width: 100%;
+  list-style-type: none;
+  line-height: 3em;
+  padding-left: 10px;
+}
+
+/*make <li></li> have no bullets*/
+
+nav li:hover {
+  background: rgba(255, 202, 68, 100);
+  color: black;
+  font-weight: bold;
+}
+
+/*.newContactForm {
+  margin: 20px;
+  padding: 10px;
+  border-color: yellow;
+  border-radius: 10px;
+}*/
+
+.newContactForm {
+  padding: 20px;
+  margin: 30px;
+  margin-right: 140px;
+  border-color: rgba(255, 202, 68, 100);
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.newContactForm:hover {
+  border-color: rgba(84, 192, 255, 100);
+}
+
+a:hover {
+  text-decoration: none;
+}
